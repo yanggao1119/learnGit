@@ -18,3 +18,13 @@ git clone git://github.com/redpony/cdec.git bbe13be2591301d52475d270cc74ea560763
 cd bbe13be2591301d52475d270cc74ea560763c595/
 
 git checkout bbe13be2591301d52475d270cc74ea560763c595
+
+
+20131223
+--------
+when https does not work, use git protocol:
+
+git clone https://github.com/yanggao1119/mosesdecoder
+to
+git clone git://github.com/yanggao1119/mosesdecoder
+
