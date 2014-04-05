@@ -28,3 +28,10 @@ git clone https://github.com/yanggao1119/mosesdecoder
 to
 git clone git://github.com/yanggao1119/mosesdecoder
 
+20140404
+--------
+1. after removing files locally (e.g., topics.1 topics.2), to further remove from remote repo:
+
+ git rm --cached topics.*
+
+then commit and push
