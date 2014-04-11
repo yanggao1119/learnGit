@@ -41,3 +41,19 @@ then commit and push
 1. it is so annoying that after sharing code with people in Google Drive, I cannot do git operations such as git pull. Need to remove the Icon? files recursively.
 
 find . -name "Icon?" -delete
+
+2. It's healthy to run git status often. Sometimes things change and you don't notice it.
+
+3. the command 
+
+    git add '*.txt'
+
+    is recursive, files ending with .txt from sub directories will also be added to staging area
+
+4. To push our local repo to the GitHub server we'll need to add a remote repository.
+
+    This command takes a remote name and a repository URL, which in your case is https://github.com/try-git/try_git.git.
+
+    Go ahead and run git remote add with the options below:
+
+        git remote add origin https://github.com/try-git/try_git.git 
