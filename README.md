@@ -35,3 +35,9 @@ git clone git://github.com/yanggao1119/mosesdecoder
  git rm --cached topics.*
 
 then commit and push
+
+20140410
+--------
+1. it is so annoying that after sharing code with people in Google Drive, I cannot do git operations such as git pull. Need to remove the Icon? files recursively.
+
+find . -name "Icon?" -delete
